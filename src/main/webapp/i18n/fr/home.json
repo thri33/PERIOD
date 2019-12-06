@@ -1,0 +1,11 @@
+{
+  "home": {
+    "title": "Bienvenue sur PERIOD !",
+    "logged": {
+      "message": "Vous êtes connecté en tant que \"{{username}}\"."
+    },
+    "card": {
+      "title": "Dernier commentaire de la communauté"
+    }
+  }
+}

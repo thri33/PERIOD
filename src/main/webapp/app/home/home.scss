@@ -1,0 +1,27 @@
+/* ==========================================================================
+Main page styles
+========================================================================== */
+
+.card {
+  color: #f0ffff;
+  width: 350px;
+  height: 200px;
+  background: url('../../content//images/circle-blues.png') repeat;
+  background-size: contain;
+}
+
+.card-body {
+  text-align: center;
+}
+
+/* wait autoprefixer update to allow simple generation of high pixel density media query */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (-moz-min-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .card {
+    background: url('../../content//images/circle-blues.png') repeat;
+    background-size: contain;
+  }
+}

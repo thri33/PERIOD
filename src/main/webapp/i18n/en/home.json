@@ -1,0 +1,11 @@
+{
+  "home": {
+    "title": "Welcome to PERIOD!",
+    "logged": {
+      "message": "You are logged in as user \"{{username}}\"."
+    },
+    "card": {
+      "title": "Last comment from our Community"
+    }
+  }
+}
